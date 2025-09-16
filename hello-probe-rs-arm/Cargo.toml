@@ -7,3 +7,4 @@ edition = "2024"
 embedded-hal = "1.0.0"
 panic-halt = "1.0.0"
 rp235x-hal = {version = "0.3.0", features = ["binary-info", "critical-section-impl", "rt"]}
+rtt-target = "0.6.1"
