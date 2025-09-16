@@ -1,0 +1,15 @@
+[package]
+name = "hello-picotool-riscv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+embedded-hal = "1.0.0"
+panic-halt = "1.0.0"
+
+# rp235x-hal = {version = "0.3.0", features = ["binary-info", "critical-section-impl", "rt"]}
+
+[dependencies.rp235x-hal]
+git = "https://github.com/rp-rs/rp-hal"
+rev = "0aaf8de971c539cd17fbede41173cc6db4cce205"
+features = ["binary-info", "critical-section-impl", "rt"]
