@@ -25,7 +25,10 @@ Install Picotool:
 
 ## Projects
 
-- [hello-picotool-arm](hello-picotool-arm): Cortex-M (No debugging)
-- [hello-probe-rs-arm](hello-probe-rs-arm): Cortex-M (Debugging)
+- [hello-picotool-arm](hello-picotool-arm): Cortex-M (No debugging)  
+- [hello-probe-rs-arm](hello-probe-rs-arm): Cortex-M (Debugging)  
 
-- [hello-picotool-riscv](hello-picotool-riscv): RISC-V (No debugging)
+<br />
+
+- [hello-picotool-riscv](hello-picotool-riscv): RISC-V (No debugging)  
+- [hello-probe-rs-riscv](hello-probe-rs-riscv): RISC-V (Debugging not supported)
